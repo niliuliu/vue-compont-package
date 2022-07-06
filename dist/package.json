@@ -1,0 +1,17 @@
+{
+  "name": "byjk-package",
+  "version": "1.0.4",
+  "author": "BYJK",
+  "keywords": [
+    "js",
+    "vue"
+  ],
+  "main": "byjk-package.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name byjk-package --dest dist"
+  }
+
+}
