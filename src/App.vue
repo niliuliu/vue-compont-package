@@ -1,17 +1,37 @@
+<!--
+ * @Author: liuxiaoni
+ * @Date: 2022-07-05 10:43:10
+ * @LastEditors: liuxiaoni
+ * @LastEditTime: 2022-07-06 10:24:13
+ * @Description: 
+-->
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld />
+    <Modal :visible="visible" v-on:on-hidden="onHidden" /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './package/test-page'
+// import Modal from './modal/index.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  // data () {
+  //  return {
+  //   visible: true
+  // };
+  // },
+  // components: {
+  //   HelloWorld,
+  //   // Modal
+  // },
+  methods: {
+    // onHidden(){
+    // this.visible = false
+    // }
   }
 }
 </script>
